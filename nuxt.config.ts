@@ -1,7 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
-
   modules: [
     '@nuxt/ui-pro',
     '@nuxt/eslint',
@@ -9,7 +7,24 @@ export default defineNuxtConfig({
     '@nuxt/image'
   ],
 
+  devtools: {
+    enabled: true
+  },
+
   css: ['~/assets/css/main.css'],
 
-  compatibilityDate: '2024-11-27'
+  routeRules: {
+    '/': { prerender: true }
+  },
+
+  compatibilityDate: '2025-01-15',
+
+  eslint: {
+    config: {
+      stylistic: {
+        commaDangle: 'never',
+        braceStyle: '1tbs'
+      }
+    }
+  }
 })
