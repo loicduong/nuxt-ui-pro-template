@@ -39,8 +39,14 @@ useSeoMeta({
       <template #right>
         <UColorModeButton />
 
-        <UButton to="https://github.com/nuxt-ui-pro/starter" target="_blank" icon="i-simple-icons-github"
-          aria-label="GitHub" color="neutral" variant="ghost" />
+        <UButton
+          to="https://github.com/nuxt-ui-pro/starter"
+          target="_blank"
+          icon="i-simple-icons-github"
+          aria-label="GitHub"
+          color="neutral"
+          variant="ghost"
+        />
       </template>
     </UHeader>
 
@@ -58,8 +64,14 @@ useSeoMeta({
       </template>
 
       <template #right>
-        <UButton to="https://github.com/nuxt-ui-pro/starter" target="_blank" icon="i-simple-icons-github"
-          aria-label="GitHub" color="neutral" variant="ghost" />
+        <UButton
+          to="https://github.com/nuxt-ui-pro/starter"
+          target="_blank"
+          icon="i-simple-icons-github"
+          aria-label="GitHub"
+          color="neutral"
+          variant="ghost"
+        />
       </template>
     </UFooter>
   </UApp>

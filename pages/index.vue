@@ -1,6 +1,7 @@
 <template>
   <div>
-    <UPageHero title="Nuxt UI Pro - Starter"
+    <UPageHero
+      title="Nuxt UI Pro - Starter"
       description="Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive applications in minutes."
       :links="[{
         label: 'Get started',
@@ -16,9 +17,12 @@
         size: 'xl',
         color: 'neutral',
         variant: 'subtle'
-      }]" />
+      }]"
+    />
 
-    <UPageSection id="features" title="The freedom to build anything"
+    <UPageSection
+      id="features"
+      title="The freedom to build anything"
       description="Nuxt UI Pro ships with an extensive set of advanced components that cover a wide range of use-cases. Carefully crafted to reduce boilerplate code without sacrificing flexibility."
       :features="[{
         icon: 'i-lucide-wrench',
@@ -32,12 +36,15 @@
         icon: 'i-lucide-smartphone',
         title: 'Mobile-first & responsive',
         description: 'Built with a mobile-first approach, all components automatically adapt to any screen size while maintaining a polished look.'
-      }]" />
+      }]"
+    />
 
     <UPageSection>
-      <UPageCTA title="Start with Nuxt UI Pro today!"
+      <UPageCTA
+        title="Start with Nuxt UI Pro today!"
         description="Nuxt UI Pro is free in development, but you need a license to use it in production."
-        variant="subtle" :links="[{
+        variant="subtle"
+        :links="[{
           label: 'Buy now',
           to: 'https://ui.nuxt.com/pro/purchase',
           target: '_blank',
@@ -50,7 +57,8 @@
           trailingIcon: 'i-lucide-circle-help',
           color: 'neutral',
           variant: 'subtle'
-        }]" />
+        }]"
+      />
     </UPageSection>
   </div>
 </template>
